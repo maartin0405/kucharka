@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+}
+
+.btn{
+    border: none;
+    background-color: #811bf5;
+    color: white;
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    margin: auto;
+}
