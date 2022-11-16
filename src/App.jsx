@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="container">
-        <h1>Nejlepší kuchařka na světe!</h1>
+        <h1>Nejlepší kuchařka na světe a ve vesmíru!</h1>
         <RecipeForm handleFormSubmit={handleFormSubmit}/>
         <RecipeList recipes={recipes}/>
     </div>
